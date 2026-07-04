@@ -1,0 +1,33 @@
+/* 废土风格配色 */
+:root {
+  --mc-dark: #1a1a1a;
+  --mc-red: #b02e26;
+  --mc-green: #4caf50;
+  --mc-yellow: #fdd835;
+}
+
+/* Minecraft字体模拟 */
+@font-face {
+  font-family: 'Minecraft';
+  src: url('assets/fonts/Minecraft.ttf') format('truetype');
+}
+
+body {
+  background: var(--mc-dark);
+  color: #e0e0e0;
+  font-family: 'Minecraft', monospace;
+  margin: 0;
+  padding: 20px;
+}
+
+/* 按钮样式 */
+.mc-btn {
+  background: var(--mc-red);
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.mc-btn:hover {
+  background: #8b2323;
+}
